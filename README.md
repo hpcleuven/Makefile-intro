@@ -4,9 +4,7 @@ GitHub repository for participants of the "worker & atools" training. For inform
 
 ## What is it?
 
-1. [`Makefile.pdf`](Makefile.pdf) - slides from the course,
-
-1. [`hands-on.pdf`](hands-on.pdf) - exercises (and hints) for the hands on session,
+1. [`Make.pdf`](Make.pdf) - slides from the course,
 
 1. README.md - info about content,
 
