@@ -4,9 +4,10 @@ GitHub repository for participants of the "worker & atools" training. For inform
 
 ## Dependencies
 
-To work out the hands-on exercises, you need Python 2.7 (for data analysis) and a compatible version of Matplotlib (for plotting).
-If you follow this training using your VSC account on the Tier-2 Genius cluster, you may simply load the `matplotlib/2.1.2-intel-2018a-Python-2.7.14` module.
-If you prefer to work on your local machine, you may create a (mini)conda environment by using the `conda.yml` file. This assumes that you already have inistalled (mini)conda:
+To work out the hands-on exercises, you need GNU Make, GCC, Python 2.7 (for data analysis) and a compatible version of Matplotlib (for plotting).
+
+- If you follow this training using your VSC account on the Tier-2 Genius cluster, you may simply load the `matplotlib/2.1.2-intel-2018a-Python-2.7.14` module.
+- If you prefer to work on your local machine, you may create a (mini)conda environment by using the `conda.yml` file. This assumes that you already have inistalled (mini)conda; this conda environment is self-contained:
 ```bash
 cd </path/to/this/repository>
 which conda # to make sure conda is in your PATH
