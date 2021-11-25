@@ -1,4 +1,4 @@
-# Makefile introduction course 
+# Makefile introduction course
 
 GitHub repository for participants of the "worker & atools" training. For information on the training, see the website [https://hpcleuven.github.io/Makefile-intro/](https://hpcleuven.github.io/Makefile-intro/)
 
@@ -27,3 +27,4 @@ conda env create -f conda.env
 
 1. [`conda.yml`](conda.yml) is a YAML file to recreate a (mini)conda working environment containing Python 2.7 and a consistent version of matplotlib
 
+1. ['compilation_example.sh'](compilation_example.sh) automatically generates all needes source files for Hands-on exercise 9 (building a simple C code)
