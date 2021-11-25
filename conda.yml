@@ -1,15 +1,18 @@
 name: py2.7-pyplot
 channels:
+  - anaconda
+  - conda-forge
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1=main
+  - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=1_gnu
   - backports=1.0=pyhd3eb1b0_2
   - backports.functools_lru_cache=1.6.4=pyhd3eb1b0_0
   - backports_abc=0.5=py_1
+  - binutils_impl_linux-64=2.36.1=h193b22a_2
   - blas=1.0=mkl
-  - ca-certificates=2021.10.26=h06a4308_2
-  - certifi=2020.6.20=pyhd3eb1b0_3
+  - ca-certificates=2021.10.8=ha878542_0
+  - certifi=2016.9.26=py27_0
   - cycler=0.10.0=py27_0
   - dbus=1.13.18=hb2f20db_0
   - expat=2.4.1=h2531618_2
@@ -17,23 +20,30 @@ dependencies:
   - freetype=2.11.0=h70c0345_0
   - functools32=3.2.3.2=py27_1
   - futures=3.3.0=py27_0
+  - gcc=11.2.0=h702ea55_1
+  - gcc_impl_linux-64=11.2.0=h82a94d6_11
   - glib=2.69.1=h5202010_0
   - gst-plugins-base=1.14.0=h8213a91_2
   - gstreamer=1.14.0=h28cd5cc_2
   - icu=58.2=he6710b0_3
   - intel-openmp=2021.4.0=h06a4308_3561
   - jpeg=9d=h7f8727e_0
+  - kernel-headers_linux-64=2.6.32=he073ed8_15
   - kiwisolver=1.1.0=py27he6710b0_0
+  - ld_impl_linux-64=2.36.1=hea4e1c9_2
   - libffi=3.3=he6710b0_2
-  - libgcc-ng=9.3.0=h5101ec6_17
+  - libgcc-devel_linux-64=11.2.0=h0952999_11
+  - libgcc-ng=11.2.0=h1d223b6_11
   - libgfortran-ng=7.5.0=ha8ba4b0_17
   - libgfortran4=7.5.0=ha8ba4b0_17
-  - libgomp=9.3.0=h5101ec6_17
+  - libgomp=11.2.0=h1d223b6_11
   - libpng=1.6.37=hbc83047_0
-  - libstdcxx-ng=9.3.0=hd4cf53a_17
+  - libsanitizer=11.2.0=he4da1e4_11
+  - libstdcxx-ng=11.2.0=he4da1e4_11
   - libuuid=1.0.3=h7f8727e_2
   - libxcb=1.14=h7b6447c_0
   - libxml2=2.9.12=h03d6c58_0
+  - make=4.2.1=h1bed415_1
   - matplotlib=2.2.3=py27hb69df0a_0
   - mkl=2020.2=256
   - mkl-service=2.3.0=py27he904b0f_0
@@ -42,7 +52,7 @@ dependencies:
   - ncurses=6.3=h7f8727e_2
   - numpy=1.16.6=py27hbc911f0_0
   - numpy-base=1.16.6=py27hde5b4d6_0
-  - openssl=1.1.1l=h7f8727e_0
+  - openssl=1.1.1l=h7f98852_0
   - pcre=8.45=h295c915_0
   - pip=19.3.1=py27_0
   - pyparsing=2.4.7=pyhd3eb1b0_0
@@ -58,6 +68,7 @@ dependencies:
   - six=1.16.0=pyhd3eb1b0_0
   - sqlite=3.36.0=hc218d9a_0
   - subprocess32=3.5.4=py27h7b6447c_0
+  - sysroot_linux-64=2.12=he073ed8_15
   - tk=8.6.11=h1ccaba5_0
   - tornado=5.1.1=py27h7b6447c_0
   - wheel=0.37.0=pyhd3eb1b0_1
