@@ -20,14 +20,16 @@ conda env create -f conda.env
 
 1. [`make-lesson.zip`](make-lesson.zip) - set of files for hands-on sessions,
 
+1. [`make-lesson-with exercises.zip`](make-lesson-with-exercises.zip) - set of files for hands-on sessions with answers,
+
 1. [`lapack-3.3.0.tgz`](lapack-3.3.0.tgz) - alternative location of laback source for the last hands-on,
 
 1. README.md - info about content,
 
 1. docs - directory containing the website for this repository.
 
-1. [`conda.yml`](conda.yml) is a YAML file to recreate a (mini)conda working environment containing Python 2.7 and a consistent version of matplotlib
+1. [`conda.yml`](conda.yml) is a YAML file to recreate a (mini)conda working environment containing Python 2.7 and a consistent version of matplotlib,
 
-1. ['compilation_example.sh'](compilation_example.sh) automatically generates all needes source files for Hands-on exercise 9 (building a simple C code)
+1. ['compilation_example.sh'](compilation_example.sh) automatically generates all needes source files for Hands-on exercise 9 (building a simple C code),
 
-1. ['pg4078.txt'](pg4078.txt) - copy of The Picture of Dorian Gray by Oscar Wilde from Project Gutenberg ebooks
+1. ['pg4078.txt'](pg4078.txt) - copy of The Picture of Dorian Gray by Oscar Wilde from Project Gutenberg ebooks.
